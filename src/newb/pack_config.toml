@@ -29,17 +29,24 @@ credits = '''
 # right-most subpack is enabled by default
 
 [[subpack]]
-define = "ROUNDED_CLOUDS"
+define = "VANILLA_CLOUDS"
 materials = ["Clouds"]
 description = '''
-Rounded Clouds
+Vanilla Clouds
 '''
 
 [[subpack]]
-define = "BOX_CLOUDS"
-materials = ["Clouds", "RenderChunk"]
+define = "CAVE_VISION"
+materials = ["RenderChunk"]
 description = '''
-Box Clouds
+Cave Vision
+'''
+
+[[subpack]]
+define = "RAINBOW"
+materials = ["Sky"]
+description = '''
+Rainbow
 '''
 
 [[subpack]]
@@ -47,6 +54,13 @@ define = "CHUNK_ANIM"
 materials = ["RenderChunk"]
 description = '''
 Chunk loading animation
+'''
+
+[[subpack]]
+define = "NO_SHOOTING_STAR"
+materials = ["Sky"]
+description = '''
+Disabled shooting star
 '''
 
 [[subpack]]

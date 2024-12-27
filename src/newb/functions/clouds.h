@@ -21,7 +21,7 @@ float cloudNoise2D(vec2 p, highp float t, float rain) {
     u.y
   );
   n *= 0.5 + 0.5*sin(p.x*0.6 - 0.5*t)*sin(p.y*0.6 + 0.8*t);
-  n = min(n*(1.0+rain), 1.0);
+  n = min(n*(2.0+rain), 1.0);
   return n*n;
 }
 
