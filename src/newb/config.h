@@ -62,8 +62,8 @@
 
 /* Fog */
 #define NL_FOG 1.0                // [toggle] 0.1 subtle ~ 1.0 blend with sky completely
-#define NL_MIST_DENSITY 1.78      // 0.0 no mist ~ 1.0 misty
-#define NL_RAIN_MIST_OPACITY 0.12 // [toggle] 0.04 very subtle ~ 0.5 thick rain mist blow
+#define NL_MIST_DENSITY 1.38      // 0.0 no mist ~ 1.0 misty
+#define NL_RAIN_MIST_OPACITY 0.25 // [toggle] 0.04 very subtle ~ 0.5 thick rain mist blow
 #define NL_CLOUDY_FOG 0.0         // [toggle] 0.0 subtle - 0.8 dense fog clouds
 
 /* Sky colors - zenith=top, horizon=bottom */
@@ -72,7 +72,7 @@
 #define NL_NIGHT_ZENITH_COL  vec3(0.0,0.0,0.0)
 #define NL_NIGHT_HORIZON_COL vec3(0.05,0.1,0.36)
 #define NL_RAIN_ZENITH_COL   vec3(0.25,0.25,0.25)
-#define NL_RAIN_HORIZON_COL  vec3(0.65,0.65,0.65)
+#define NL_RAIN_HORIZON_COL  vec3(0.45,0.45,0.45)
 #define NL_END_ZENITH_COL    vec3(0.0,0.0,0.0)
 #define NL_END_HORIZON_COL   vec3(0.3,0.0,0.6)		//vec3(0.28,0.031,0.33)
 #define NL_DAWN_ZENITH_COL   vec3(0.0,0.09,0.38)
@@ -90,8 +90,8 @@
 #define NL_GLOW_LEAK 0.3 // [toggle] 0.08 subtle ~ 1.0 100% brightness of NL_GLOW_TEX
 
 /* Waving */
-#define NL_PLANTS_WAVE 0.02    // [toggle] 0.02 gentle ~ 0.4 violent
-#define NL_LANTERN_WAVE 0.08   // [toggle] 0.05 subtle ~ 0.4 large swing
+//#define NL_PLANTS_WAVE 0.02    // [toggle] 0.02 gentle ~ 0.4 violent
+//#define NL_LANTERN_WAVE 0.08   // [toggle] 0.05 subtle ~ 0.4 large swing
 #define NL_WAVE_SPEED 1.8      // 0.5 slow wave ~ 5.0 very fast wave
 //#define NL_EXTRA_PLANTS_WAVE // [toggle] !dont use! wave using texture coords (1.21.0 vanilla 2048x1024)
 
@@ -155,7 +155,7 @@
 #define NL_AURORA_COL2 vec3(0.0,1.0,1.0)
 
 /* Shooting star */
-#define NL_SHOOTING_STAR 3.0        // [toggle] 0.2 dim ~ 1.0 bright
+//#define NL_SHOOTING_STAR 3.0        // [toggle] 0.2 dim ~ 1.0 bright
 #define NL_SHOOTING_STAR_PERIOD 6.0 // 0.4 fast ~ 12.0 slow (12 secs)
 #define NL_SHOOTING_STAR_DELAY 0.5 // 0.0 no delay ~ 100.0 long time (100 secs)
 
