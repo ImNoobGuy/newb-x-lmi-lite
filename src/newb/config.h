@@ -63,7 +63,7 @@
 /* Fog */
 #define NL_FOG 1.0                // [toggle] 0.1 subtle ~ 1.0 blend with sky completely
 #define NL_MIST_DENSITY 1.38      // 0.0 no mist ~ 1.0 misty
-#define NL_RAIN_MIST_OPACITY 0.25 // [toggle] 0.04 very subtle ~ 0.5 thick rain mist blow
+#define NL_RAIN_MIST_OPACITY 0.35 // [toggle] 0.04 very subtle ~ 0.5 thick rain mist blow
 #define NL_CLOUDY_FOG 0.0         // [toggle] 0.0 subtle - 0.8 dense fog clouds
 
 /* Sky colors - zenith=top, horizon=bottom */
@@ -71,8 +71,8 @@
 #define NL_DAY_HORIZON_COL   vec3(0.68,0.88,1.0)
 #define NL_NIGHT_ZENITH_COL  vec3(0.0,0.0,0.0)
 #define NL_NIGHT_HORIZON_COL vec3(0.05,0.1,0.36)
-#define NL_RAIN_ZENITH_COL   vec3(0.25,0.25,0.25)
-#define NL_RAIN_HORIZON_COL  vec3(0.45,0.45,0.45)
+#define NL_RAIN_ZENITH_COL   vec3(0.35,0.35,0.35)
+#define NL_RAIN_HORIZON_COL  vec3(0.55,0.55,0.55)
 #define NL_END_ZENITH_COL    vec3(0.0,0.0,0.0)
 #define NL_END_HORIZON_COL   vec3(0.3,0.0,0.6)		//vec3(0.28,0.031,0.33)
 #define NL_DAWN_ZENITH_COL   vec3(0.0,0.09,0.38)
@@ -103,7 +103,7 @@
 #define NL_WATER_WAVE             // [toggle] wave effect
 //#define NL_WATER_CLOUD_REFLECTION // [toggle] simple clouds/aurora reflection
 //#define NL_WATER_REFL_MASK      // [toggle] fake water reflection mask
-#define NL_WATER_TINT vec3(0.0,0.00,0.24)
+#define NL_WATER_TINT vec3(0.0,0.00,0.34)
 
 /* Underwater */
 #define NL_UNDERWATER_BRIGHTNESS 0.8         // 0.0 dark ~ 3.0 bright
