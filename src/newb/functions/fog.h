@@ -18,6 +18,7 @@ float nlRenderFogFade(nl_skycolor skycol, float relativeDist, vec3 FOG_COLOR, ve
   #endif
 }
 
+#ifdef NL_GODRAY
 float nlRenderGodRay(vec3 cPos, vec3 worldPos, float t, vec2 uv1, float relativeDist, vec3 FOG_COLOR, float fogColor) {
   vec3 offset = cPos - 16.0*fract(worldPos*0.0625);
   offset = abs(2.0*fract(offset*0.0625)-1.0);
@@ -44,5 +45,6 @@ float nlRenderGodRay(vec3 cPos, vec3 worldPos, float t, vec2 uv1, float relative
   vol = smoothstep(0.0, 0.1, vol);
   return vol;
 }
+#endif
 
 #endif
