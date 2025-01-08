@@ -62,7 +62,7 @@
 
 /* Fog */
 #define NL_FOG 1.0                // [toggle] 0.1 subtle ~ 1.0 blend with sky completely
-#define NL_MIST_DENSITY 1.38      // 0.0 no mist ~ 1.0 misty
+#define NL_MIST_DENSITY 0.8      // 0.0 no mist ~ 1.0 misty
 #define NL_RAIN_MIST_OPACITY 0.35 // [toggle] 0.04 very subtle ~ 0.5 thick rain mist blow
 #define NL_CLOUDY_FOG 0.0         // [toggle] 0.0 subtle - 0.8 dense fog clouds
 
@@ -173,7 +173,7 @@
 #define NL_SUNMOON_SIZE 1.0     // 0.3 tiny ~ 4.0 massive
 
 /* Fake godrays during sunrise/sunset */
-#define NL_GODRAY 1.4 // [toggle] 0.1 subtle ~ 0.8 strong
+//#define NL_GODRAY 1.4 // [toggle] 0.1 subtle ~ 0.8 strong
 
 /* Sky reflection */
 //#define NL_GROUND_REFL 0.4       // [toggle] 0.2 slightly reflective ~ 1.0 fully reflect sky 
@@ -184,6 +184,11 @@
 /* Entity (Actor, ItemInHand) */
 #define NL_ENTITY_BRIGHTNESS     0.65 // 0.1 dark ~ 1.6 bright
 #define NL_ENTITY_EDGE_HIGHLIGHT 0.41 // 0.0 no highlight ~ 1.6 bright highlight
+
+/* Weather particles */
+#define NL_WEATHER_SPECK 0.2         // [toggle] 0.0 vanilla texture ~ 1.0 soft speck
+#define NL_WEATHER_RAIN_SLANT 4.0    // 1.0 minimal ~ 8.0 violent
+#define NL_WEATHER_PARTICLE_SIZE 1.0 // 0.5 tiny ~ 4.0 large
 
 /*
   NEWB SHADER SUBPACK CONFIG
